@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<whois-resources xmlns:xlink="http://www.w3.org/1999/xlink">
+<service name="search"/>
+<parameters>
+    <inverse-lookup/>
+    <type-filters/>
+    <flags/>
+    <query-strings>
+        <query-string value="88.203.128.0/21"/>
+    </query-strings>
+    <sources/>
+</parameters>
+<objects>
+<object type="inetnum">
+    <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/inetnum/88.203.128.0 - 88.203.255.255"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="inetnum" value="88.203.128.0 - 88.203.255.255"/>
+    </primary-key>
+    <attributes>
+        <attribute name="inetnum" value="88.203.128.0 - 88.203.255.255"/>
+        <attribute name="netname" value="BG-MTELNET-20051125"/>
+        <attribute name="country" value="BG"/>
+        <attribute name="org" value="ORG-MN1-RIPE" referenced-type="organisation">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/organisation/ORG-MN1-RIPE"/>
+        </attribute>
+        <attribute name="admin-c" value="MTC41-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/role/MTC41-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="MTC41-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/role/MTC41-RIPE"/>
+        </attribute>
+        <attribute name="status" value="ALLOCATED PA"/>
+        <attribute name="mnt-by" value="RIPE-NCC-HM-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/mntner/RIPE-NCC-HM-MNT"/>
+        </attribute>
+        <attribute name="mnt-lower" value="AS12716-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/mntner/AS12716-MNT"/>
+        </attribute>
+        <attribute name="mnt-routes" value="AS12716-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/mntner/AS12716-MNT"/>
+        </attribute>
+        <attribute name="mnt-lower" value="SPNET-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/mntner/SPNET-MNT"/>
+        </attribute>
+        <attribute name="mnt-routes" value="SPNET-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/mntner/SPNET-MNT"/>
+        </attribute>
+        <attribute name="created" value="2005-11-25T09:33:18Z"/>
+        <attribute name="last-modified" value="2016-04-14T08:02:27Z"/>
+        <attribute name="source" value="RIPE" comment="Filtered"/>
+    </attributes>
+    <tags>
+        <tag id="RIPE-REGISTRY-RESOURCE"/>
+    </tags>
+</object>
+<object type="organisation">
+    <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/organisation/ORG-MN1-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="organisation" value="ORG-MN1-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="organisation" value="ORG-MN1-RIPE"/>
+        <attribute name="org-name" value="MOBILTEL EAD"/>
+        <attribute name="org-type" value="LIR"/>
+        <attribute name="address" value="1 Kukush Str. bld. M7, fl. 6"/>
+        <attribute name="address" value="1345"/>
+        <attribute name="address" value="Sofia"/>
+        <attribute name="address" value="BULGARIA"/>
+        <attribute name="phone" value="+359 88 8088088"/>
+        <attribute name="phone" value="+35 988 1010"/>
+        <attribute name="fax-no" value="+359 88 110 3970"/>
+        <attribute name="abuse-c" value="AR14215-RIPE" referenced-type="role">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/role/AR14215-RIPE"/>
+        </attribute>
+        <attribute name="admin-c" value="GG15027-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/person/GG15027-RIPE"/>
+        </attribute>
+        <attribute name="admin-c" value="BH3761-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/person/BH3761-RIPE"/>
+        </attribute>
+        <attribute name="admin-c" value="MG14247-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/person/MG14247-RIPE"/>
+        </attribute>
+        <attribute name="mnt-ref" value="AS12716-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/mntner/AS12716-MNT"/>
+        </attribute>
+        <attribute name="mnt-ref" value="RIPE-NCC-HM-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/mntner/RIPE-NCC-HM-MNT"/>
+        </attribute>
+        <attribute name="mnt-by" value="RIPE-NCC-HM-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/mntner/RIPE-NCC-HM-MNT"/>
+        </attribute>
+        <attribute name="created" value="2004-04-17T11:01:14Z"/>
+        <attribute name="last-modified" value="2016-10-06T15:23:07Z"/>
+        <attribute name="source" value="RIPE" comment="Filtered"/>
+    </attributes>
+</object>
+<object type="role">
+    <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/role/MTC41-RIPE"/>
+    <source id="ripe"/>
+    <primary-key>
+        <attribute name="nic-hdl" value="MTC41-RIPE"/>
+    </primary-key>
+    <attributes>
+        <attribute name="role" value="MTel Tech Contact"/>
+        <attribute name="address" value="M1 building"/>
+        <attribute name="address" value="1, Kukush str."/>
+        <attribute name="address" value="Sofia"/>
+        <attribute name="address" value="Bulgaria"/>
+        <attribute name="admin-c" value="ET4209-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/person/ET4209-RIPE"/>
+        </attribute>
+        <attribute name="admin-c" value="BH3761-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/person/BH3761-RIPE"/>
+        </attribute>
+        <attribute name="admin-c" value="AK14936-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/person/AK14936-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="ET4209-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/person/ET4209-RIPE"/>
+        </attribute>
+        <attribute name="tech-c" value="AK14936-RIPE" referenced-type="person">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/person/AK14936-RIPE"/>
+        </attribute>
+        <attribute name="nic-hdl" value="MTC41-RIPE"/>
+        <attribute name="mnt-by" value="ROUTE-12716-MNT" referenced-type="mntner">
+            <link xlink:type="locator" xlink:href="http://rest.db.ripe.net/ripe/mntner/ROUTE-12716-MNT"/>
+        </attribute>
+        <attribute name="abuse-mailbox" value="RIPE.Abuse@mobiltel.bg"/>
+        <attribute name="created" value="2007-10-19T08:49:15Z"/>
+        <attribute name="last-modified" value="2016-04-15T09:44:11Z"/>
+        <attribute name="source" value="RIPE" comment="Filtered"/>
+    </attributes>
+</object>
+</objects>
+<terms-and-conditions xlink:type="locator" xlink:href="http://www.ripe.net/db/support/db-terms-conditions.pdf"/>
+</whois-resources>
