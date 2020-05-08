@@ -10,7 +10,6 @@ def ask_ripe(xml_dict):
     # type: (object) -> object
     ripe_net = {}
     #url_base='http://rest.db.ripe.net/search?query-string='
-    #test githube
     ripe_query= 'http://rest.db.ripe.net/search.xml?query-string=ORG-MN1-RIPE&inverse-attribute=org&flags=no-referenced&flags=no-irt&source=RIPE'
     rep = urlopen(ripe_query)
     data= str(rep.read().decode(encoding='UTF-8'))
